@@ -16,6 +16,7 @@ object MainRank {
     val dampArg: Option[Int] = toInt(args(1))
     val damp = dampArg.getOrElse(0.8f)
     val endRank = compRank(startRank,graph,0.4f,0.001f)
+    nodeId.zip(endRank).foreach(tup=>println(tup._1 + " " + tup._2))
   }
 
   def toInt(s: String): Option[Int] = {

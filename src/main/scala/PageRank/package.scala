@@ -2,11 +2,11 @@
   * Created by mbesancon on 05.07.16.
   */
 
-import collection.GenSeq
+import scala.annotation.tailrec
+import scala.collection.GenSeq
 import scala.math.sqrt
-import annotation.tailrec
 
-object PageRank {
+package object PageRank {
 
   type LinkMat = GenSeq[(Int,Int)]
 

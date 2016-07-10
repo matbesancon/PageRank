@@ -5,4 +5,4 @@ Plotting was done using Python and Matplotlib.
 
 The distribution of ranks follows as expected a power low, visible
 on a log-log plot.
-![resulting plot](rank_dist.pdf)
+![resulting plot](https://github.com/mbesancon/PageRank/blob/master/rank_dist.pdf)

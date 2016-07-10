@@ -1,1 +1,5 @@
 Functional PageRank in Scala, leveraging parallel collections.
+
+## Results
+
+![resulting plot](rank_dist.pdf)
